@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EXERCÍCIO - WEB I</title>
+        <link rel="Stylesheet" type="text/css" href="stile.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header style="margin: 5%;">
+            <h1>
+                Desenvolva uma página no seu servidor com formulário/HTML e/ou inputs
+                do JS (prompt/confirm), para criar as seguintes funções com JavaScript:
+            </h1>
+        </header>
+        <div id="q1">
+            <h4>
+                1. Faça uma função MAIOR_MENOR(a, b, c, d, e) que leia cinco valores 
+                inteiros e imprima o maior e o menor valor.    
+            </h4>
+            <div>
+                <div class="exer">
+                    INSIRA:
+                    <form>
+                        <input id="int1" type="number"><br>
+                        <input id="int2" type="number"><br>
+                        <input id="int3" type="number"><br>
+                        <input id="int4" type="number"><br>
+                        <input id="int5" type="number"><br>
+                        <input class="button" type="button" onclick="questao1()" value="Qual é o maior?">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="q2">
+            <h4>
+                2. Criar uma função VOGAL(c) que receba um caractere como parâmetro e retorne 1
+                (um) caso seja uma vogal e zero caso não seja. 
+            </h4>
+            <div>
+                <div class="exer">
+                    INSIRA:
+                    <form>
+                        <input id="char1"><br>
+                        <input class="button" type="button" onclick="questao2()" value="É vogal?">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="q3">
+            <h4>
+                3. Criar uma função LIMITES(li, ls) que leia os limites inferior e superior de um intervalo
+                e imprimir todos os números pares no intervalo aberto e seu somatório. Suponha
+                que os dados digitados são para um intervalo crescente. 
+                 
+            </h4>
+            <div>
+                <div class="exer">
+                    INSIRA:
+                    <form>
+                        <input id="limite1" type="number"><br>
+                        <input id="limite2" type="number"><br>
+                        <input class="button" type="button" onclick="questao3()" value="ENVIAR">
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div id="q4">
+            <h4>
+                4. Faça uma função ORDEM(a, b, c) que recebe 3 valores inteiros por parâmetro e
+                retorna-os ordenados em ordem crescente.
+                 
+            </h4>
+            <div>
+                <div class="exer">
+                    INSIRA:
+                    <form>
+                        <input id="para" type="number"><br>
+                        <input id="parb" type="number"><br>
+                        <input id="parc" type="number"><br>
+                        <input class="button" type="button" onclick="questao4()" value="ENVIAR">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="q5">
+            <h4>
+                5. Faça uma função POSITIVO_NEGATIVO(x) que recebe um valor inteiro e verifica se o
+                valor é positivo ou negativo. A função deve retornar um valor booleano. 
+                 
+            </h4>
+            <div>
+                <div class="exer">
+                    INSIRA:
+                    <form>
+                        <input id="xmaiormenor" type="number"><br>
+                        <input class="button" type="button" onclick="questao5()" value="ENVIAR">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="q5">
+            <h4>
+                6. Faça uma função PAR_IMPAR(x) que recebe um valor inteiro e verifica se o valor é
+                par ou ímpar. A função deve retornar um valor booleano. 
+                 
+            </h4>
+            <div>
+                <div class="exer">
+                    INSIRA:
+                    <form>
+                        <input id="xparimpar" type="number"><br>
+                        <input class="button" type="button" onclick="questao6()" value="ENVIAR">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: gray;
+}
+h4{
+    color: midnightblue;
+}
+div .exer form input {
+    margin-bottom: 4px;
+}
+form input.button{
+    padding: 5px;
+}
